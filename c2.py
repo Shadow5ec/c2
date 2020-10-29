@@ -3,10 +3,13 @@
 import sys
 import logging
 import os
+import pyfiglet
 
 sys.path.append("./core")
 
 from menu import *
+ascii_banner = pyfiglet.figlet_format("falcon")
+print(ascii_banner)
 
 def main():
 
