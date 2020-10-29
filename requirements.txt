@@ -2,3 +2,4 @@ netifaces
 flask
 readline
 pycrypto
+pyfiglet
