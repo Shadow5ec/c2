@@ -6,11 +6,11 @@ import os
 import pyfiglet
 
 sys.path.append("./core")
-
 from menu import *
-ascii_banner = pyfiglet.figlet_format("falcon")
-print(ascii_banner)
-
+def banner():
+	ascii_banner = pyfiglet.figlet_format("falcon")
+	print(ascii_banner)
+banner()
 def main():
 
 	if os.path.exists("./data/") == False:
